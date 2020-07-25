@@ -1,5 +1,6 @@
 # 紧急通知
 
+
 **6月23日(含)** 之前部署的老代码存在泄露账号密码的风险，已部署的童鞋赶紧处理一下！
 
 泄露原因：```.github/workflows/run.yml``` 代码中有打印输出账号和密码，**只要登陆Github的用户，都可以访问你仓库的Actions中的build内容**！
@@ -57,3 +58,4 @@ Actions > Cloud189Checkin > build
 
 此后，将会在每天10:00和22:00各签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改
+1
